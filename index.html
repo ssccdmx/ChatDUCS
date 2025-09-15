@@ -32,22 +32,26 @@
     <div class="input-container">
         <input type="text" id="message-input" placeholder="Escribe un mensaje..." autocomplete="off">
         <button id="send-btn"><i class="fa-regular fa-paper-plane"></i></button>
-    </div>
+    
+
+
     
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
         import { getDatabase, ref, push, onChildAdded } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
     
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAxRAyxcJGHwT6MRxBJd3WXY62ETqJa2YQ",
-  authDomain: "chat-f4639.firebaseapp.com",
-  projectId: "chat-f4639",
-  storageBucket: "chat-f4639.firebasestorage.app",
-  messagingSenderId: "446787838415",
-  appId: "1:446787838415:web:ae38eb037ec851dc5ab2ba",
-  measurementId: "G-KTSGH46T8P"
-};
+    apiKey: "AIzaSyANbSoNddol0zrXRlmSeLU4K2rlzW2aU6s",
+    authDomain: "radio-2177f.firebaseapp.com",
+    projectId: "radio-2177f",
+    storageBucket: "radio-2177f.firebasestorage.app",
+    messagingSenderId: "846849311513",
+    appId: "1:846849311513:web:7d795a2caf302eb1c1fb88",
+    measurementId: "G-S2KYLW7F1Y"
+  };
+
     
         const app = initializeApp(firebaseConfig);
         const database = getDatabase(app);
